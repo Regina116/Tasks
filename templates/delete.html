@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    <form action="/delete" method="post">
+        <input name="todo" type="text">
+        <input type="submit" value="Delete">
+    </form>
+{% endblock %}
